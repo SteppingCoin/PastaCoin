@@ -4,6 +4,7 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
   color: #fff;
   background: #111;
+  text-align: center; /* Nieuwe regel: Hierdoor staat alle tekst standaard gecentreerd */
 }
 
 a {
