@@ -195,3 +195,10 @@ footer {
   color: #bbb;
   background: #000;
 }
+
+.banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
