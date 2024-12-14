@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PastaCoin | The Future of Decentralized Finance</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 style="color:#ED1C24;">Get Saucy with PastaCoin: Crypto Made Delicious!</h1>
+            <h1 style="color:#333333;">Where Finance Meets Flavor</h1>
+            <a href="#phase1" class="btn"><h3>Phase 1: Community Rewards</h3></a>
+            <a href="#phase2" class="btn"><h3>Phase 2: ICO</h3></a>
+        </div>
+    </header>
+<div class="banner">
+  <img src="banner3.jpg" alt="Pastacoin Banner">
+</div>
+    <section id="phase1" class="phase">
+        <div class="container">
+            <h2>Phase 1: Community Rewards</h2>
+            <p>10% of PastaCoin is reserved for the community! Promote PastaCoin and claim your share.</p>
+            <ul>
+                <li>Create social media posts with hashtags: <strong>#PastaCoin</strong></li>
+                <li>Share memes, videos, or blogs</li>
+                <li>Invite friends to Telegram or Discord</li>
+            </ul>
+            <p>Submit your proof of promotion through our online form, and our team will validate your contributions. Tokens will be distributed based on the quality and reach of your efforts.</p>
+            <button class="btn" id="open-form-btn">Submit Proof</button>
+<!-- Pop-Up Container -->
+<div id="google-form-popup" class="popup hidden">
+    <div class="popup-content">
+        <span id="close-popup-btn" class="close-btn">&times;</span>
+        <h2>Submit Your Promotion Proof</h2>
+        <iframe 
+            src="https://docs.google.com/forms/d/e/1FAIpQLSet8_Na9AARoJIRVcFa6dESb9UaoMEPjIGQtwYwwEO2Yz_DMg/viewform?usp=header" 
+            width="100%" 
+            height="500px" 
+            frameborder="0" 
+            marginheight="0" 
+            marginwidth="0">
+        Loading…
+        </iframe>
+    </div>
+        </div>
+    </section>
+
+    <section id="phase2" class="phase">
+        <div class="container">
+            <h2>Phase 2: Initial Coin Offering (ICO)</h2>
+            <p>Invest in the future of decentralized finance with PastaCoin! 60% of the total supply is available in the ICO.</p>
+            <div class="ico-info">
+                <p><strong>Smart Contract Address:</strong></p>
+                <p id="contract-address" class="contract-address">0x1234567890abcdef1234567890abcdef12345678</p>
+                <button class="btn" id="copy-btn">Copy Address</button>
+            </div>
+            <div class="countdown">
+                <p><strong>ICO starts in:</strong> <span id="countdown-timer">00:00:00</span></p>
+            </div>
+            <p>Tokens will be distributed proportionally based on the ETH contributions. Join now to secure your share!</p>
+            <button class="btn">Join the ICO</button>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Follow us: <a href="#">Twitter</a> | <a href="#">Telegram</a> | <a href="#">Discord</a></p>
+            <p><small>Cryptocurrency investments carry risks. Always do your own research.</small></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
